@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description>Logic dispatcher</description>
+    <display-name>Hub</display-name>
+    <servlet-name>Hub</servlet-name>
+    <servlet-class>com.ra.aweb.core.Hub</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Hub</servlet-name>
+    <url-pattern>/Hub</url-pattern>
+  </servlet-mapping>
 </web-app>
